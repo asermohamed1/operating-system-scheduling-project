@@ -1,0 +1,15 @@
+gcc -o out-sm process_generator.c clk.c clk.h helper.h utilites/*.h utilites/*.c
+
+gcc -o scheduler scheduler.c scheduler.h Algos/*.h Algos/*.c utilites/*.c utilites/*.h helper.h clk.c clk.h -lm
+
+gcc -o clk clkRun.c clk.c clk.h
+
+gcc -o process process.c process.h clk.h clk.c
+
+
+
+./out -s hpf -f processes.txt  
+
+./out -s rr -q 3 -f processes.txt
+
+./out -s srtn -f processes.txt
