@@ -7,4 +7,7 @@ Execution Example:
 make
 ./os-sim -s rr -f processes.txt
 The project emphasizes modularity and extensibility to support future enhancements and follows a team-based development approach (3-4 members per team) 
+
+
+
 members : aser mohamed , beshoy sorial , mohamed yasser 
