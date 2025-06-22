@@ -12,6 +12,10 @@ The project emphasizes modularity and extensibility to support future enhancemen
 
 Workload Distribution:
 •	Mohamed Yasser: Process Generator + Data structures
+
+
 •	Aser Mohamed: Scheduler + Semaphores sync
+
+
 •	Beshoy Sorial: HPF + SRTN + RR
 
