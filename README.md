@@ -1,2 +1,10 @@
-# operating-system-scheduling-project
-OS-Sim: Mini Operating System Simulator  A simulation of a mini operating system that implements CPU scheduling (RR, HPF, SRTN) and memory management using modular components in C. Processes are generated based on arrival time, scheduled, and terminated automatically. Designed for extendability and team collaboration
+OS-Sim: Operating System Simulation
+
+This project is a simulation of a mini-operating system designed to implement CPU scheduling and memory management techniques. Developed as part of an advanced systems programming course, the simulator supports multiple scheduling algorithms including Round Robin (RR), Highest Priority First (HPF), and Shortest Remaining Time Next (SRTN).
+
+Processes are generated dynamically by a process_generator component based on their arrival times and are then handed over to the scheduler. Each process is responsible for terminating itself once its runtime completes. Memory management features are introduced in later phases, requiring efficient and modular code design. 
+Execution Example:
+make
+./os-sim -s rr -f processes.txt
+The project emphasizes modularity and extensibility to support future enhancements and follows a team-based development approach (3-4 members per team) 
+members : aser mohamed , beshoy sorial , mohamed yasser 
